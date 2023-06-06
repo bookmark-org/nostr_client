@@ -33,5 +33,5 @@ def run_command():
     return jsonify({'links': links})
 
 if __name__ == '__main__':
-    # Start the Flask app on port 5000
-    app.run(host='0.0.0.0')
+    # Start the Flask app on port 5005
+    app.run(host='0.0.0.0', port=5005)
